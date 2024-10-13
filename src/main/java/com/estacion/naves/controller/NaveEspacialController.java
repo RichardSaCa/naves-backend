@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1")
-@CrossOrigin("http://172.31.36.246:8088/")
+@CrossOrigin(value = "http://18.216.7.85:8088/")
 public class NaveEspacialController {
 
     @Autowired
