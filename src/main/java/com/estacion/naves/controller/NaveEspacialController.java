@@ -13,6 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1")
+@CrossOrigin("http://172.31.36.246:8088/")
 public class NaveEspacialController {
 
     @Autowired
@@ -23,7 +24,7 @@ public class NaveEspacialController {
 
     @RequestMapping("/helloWorld")
     public String helloWorld(){
-        return "Hello world 1";
+        return "Hello world 1 from backend";
     }
 
     @RequestMapping("/todasNaves")
