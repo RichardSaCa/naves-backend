@@ -1,11 +1,7 @@
 package com.estacion.naves.model;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
-import lombok.Data;
 
-import java.util.List;
 
 @Entity
 /**
@@ -20,6 +16,7 @@ import java.util.List;
  * NaveLanzadera - NaveNoTripulada - NaveTripulada
  *
  * En esta clase aplicamos encapsulación.
+ * Encapsulación se refiere a private, public, protected
  */
 public  class NaveEspacial {
     @Id

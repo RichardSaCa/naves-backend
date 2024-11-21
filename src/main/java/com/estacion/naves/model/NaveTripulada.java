@@ -1,6 +1,5 @@
 package com.estacion.naves.model;
 
-import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.Data;
 
